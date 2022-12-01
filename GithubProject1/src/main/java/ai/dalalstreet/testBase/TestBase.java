@@ -46,7 +46,7 @@ public class TestBase
       @BeforeMethod
 	  public void setup(String br) throws InterruptedException     //...can give name setup,start,initialization
 	  {                                                            //...String br="chrome";
-    	 if(br.equalsIgnoreCase("chrome"))
+    	 if(br.equalsIgnoreCase("Chrome"))
     	 {
     		 WebDriverManager.chromedriver().setup();
    		     driver = new ChromeDriver();
